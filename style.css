@@ -1,1 +1,90 @@
-css
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Merriweather&family=Playfair+Display:wght@600&display=swap');
+
+* {box-sizing: border-box;}
+
+body{
+  background-color: #9CC0E7;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+a:active{
+  color: blue;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.image{
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  margin-right: 20px
+}
+
+.logo_img{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;}
+
+.logo{
+  position: fixed;
+  right: 25px;
+  top: 25px;
+}
+
+.menu{
+  font-family: 'Merriweather', serif;
+  background-color: pink;
+  display:flex;
+  object-fit: contain;
+  align-items: center;
+  justify-content: space-around;
+  height: 75px;
+  font-size: 25px
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  display: flex;
+  height: 450px;
+  background-image: url(asl_flowers.webp);
+  background-size: cover;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size:32px;
+  font-weight: bolder;
+}
+
+.content{
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 35px;
+font-size: 25px; }
+
+h2 {
+  font-size: 30px;
+}
+
+.organisations {
+  text-align: center;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;}
+
+.person_hospital{
+  text-align: center;
+}
